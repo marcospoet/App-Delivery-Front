@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-//const BASE_URL = 'https://app-delivery-backend.up.railway.app';
-const BASE_URL = 'http://localhost:8080';
+const BASE_URL = 'https://app-delivery-web-production.up.railway.app';
+
 export const createClient = async (data: any) => {
     try {
         const response = await axios.post(`${BASE_URL}/cliente/crearCliente`, data);

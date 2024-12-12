@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-//const API_URL = 'https://app-delivery-backend.up.railway.app/itemMenu';
-const API_URL = 'http://localhost:8080/itemMenu';
+const API_URL = 'https://app-delivery-web-production.up.railway.app/itemMenu';
+
 export const createItemMenu = async (menuItem: any) => {
     try {
         const response = await axios.post(`${API_URL}/crearItem`, menuItem);

@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000" # Cambia el puerto según sea necesario
+    environment:
+      - REACT_APP_BACKEND_URL='https://app-delivery-web-production.up.railway.app' # Configura la URL del backend
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

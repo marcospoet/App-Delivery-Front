@@ -48,7 +48,7 @@ export const updateVendedor = async (id: number, data: Partial<any>): Promise<an
 // Elimina un vendedor
 export const deleteVendedor = async (id: number) => {
     try {
-        const response = await axios.delete(`http://localhost:8080/vendedor/borrarVendedor/${id}`);
+        const response = await axios.delete(`/vendedor/borrarVendedor/${id}`);
         console.log('Vendedor eliminado:', response);
     } catch (error) {
         console.error('Error eliminando vendedor:', error);

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'https://app-delivery-web-production.up.railway.app';
+const BASE_URL = 'https://app-delivery-web-production-4742.up.railway.app';
 // Obtiene todos los vendedores y retorna un array de Vendedor
 export const getVendedores = async (): Promise<any[]> => {
     try {

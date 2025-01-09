@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://app-delivery-web-production.up.railway.app/itemMenu';
+const API_URL = 'https://app-delivery-web-production-4742.up.railway.app/itemMenu';
 
 export const createItemMenu = async (menuItem: any) => {
     try {

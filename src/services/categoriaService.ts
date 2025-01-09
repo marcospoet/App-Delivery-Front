@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'https://app-delivery-web-production.up.railway.app';
+const BASE_URL = 'https://app-delivery-web-production-4742.up.railway.app';
 
 export interface Categoria {
     id: number;

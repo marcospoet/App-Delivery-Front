@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'https://app-delivery-web-production.up.railway.app/pedidos';
+const BASE_URL = 'https://app-delivery-web-production-4742.up.railway.app/pedidos';
 
 // Obtiene todos los pedidos y retorna un array de Pedido
 export const getPedidos = async (): Promise<any[]> => {
